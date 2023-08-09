@@ -33,6 +33,7 @@ export default function Home(props) {
             className="inner"
             type="number"
             required
+            min={1}
             onChange={handleChange}
             name="number"
             value={props.option.number}
